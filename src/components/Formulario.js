@@ -80,7 +80,7 @@ const Formulario = ({ crearCita }) => {
         ) : null
         //mensaje error---------------------------->
       }
-     <h2 id="mio">Brayan Enrique Ramirez Partida</h2>
+     <h2 id="mioB">Brayan Enrique Ramirez Partida</h2>
       <form onSubmit={submitCita}>
         <label>Nombre Mascota</label>
         <input
