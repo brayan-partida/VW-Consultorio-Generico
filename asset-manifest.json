@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/VW-Consultorio-Generico/static/css/main.3ec473bc.chunk.css",
+    "main.js": "/VW-Consultorio-Generico/static/js/main.4f6dfe5b.chunk.js",
+    "main.js.map": "/VW-Consultorio-Generico/static/js/main.4f6dfe5b.chunk.js.map",
+    "runtime-main.js": "/VW-Consultorio-Generico/static/js/runtime-main.74c25a69.js",
+    "runtime-main.js.map": "/VW-Consultorio-Generico/static/js/runtime-main.74c25a69.js.map",
+    "static/js/2.36cbdc2f.chunk.js": "/VW-Consultorio-Generico/static/js/2.36cbdc2f.chunk.js",
+    "static/js/2.36cbdc2f.chunk.js.map": "/VW-Consultorio-Generico/static/js/2.36cbdc2f.chunk.js.map",
+    "index.html": "/VW-Consultorio-Generico/index.html",
+    "precache-manifest.0efa0280681919ac36be019929e58d9f.js": "/VW-Consultorio-Generico/precache-manifest.0efa0280681919ac36be019929e58d9f.js",
+    "service-worker.js": "/VW-Consultorio-Generico/service-worker.js",
+    "static/css/main.3ec473bc.chunk.css.map": "/VW-Consultorio-Generico/static/css/main.3ec473bc.chunk.css.map",
+    "static/js/2.36cbdc2f.chunk.js.LICENSE.txt": "/VW-Consultorio-Generico/static/js/2.36cbdc2f.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.74c25a69.js",
+    "static/js/2.36cbdc2f.chunk.js",
+    "static/css/main.3ec473bc.chunk.css",
+    "static/js/main.4f6dfe5b.chunk.js"
+  ]
+}
