@@ -1,9 +1,9 @@
 import React, { Fragment, useState } from "react";
 import uuid from "uuid/v4"
-const Formulario = ({crearCita}) => {
+const Formulario = ({ crearCita }) => {
 
-  
-//NOTE INICIO  DE Hacer nuestra cita   1========>
+
+  //NOTE INICIO  DE Hacer nuestra cita   1========>
 
   const [cita, actualizarCita] = useState({
     mascota: "",
@@ -16,7 +16,7 @@ const Formulario = ({crearCita}) => {
   const [error, actualizarError] = useState(false);
 
 
-//NOTE OBTENER LOS DATOS DE CADA TEXTO 3===========>
+  //NOTE OBTENER LOS DATOS DE CADA TEXTO 3===========>
   const actualizarState = (datos) => {
     actualizarCita({
       ...cita,
@@ -34,7 +34,7 @@ const Formulario = ({crearCita}) => {
     //alert("hola cita")
 
     //validacion
-//NOTE 5 validamos
+    //NOTE 5 validamos
     if (
       mascota.trim() === "" ||
       propietario.trim() === "" ||
@@ -47,7 +47,7 @@ const Formulario = ({crearCita}) => {
       //actualizarError(error);
     }
     actualizarError(false);
-//NOTE 6 generramos su id importamos su id
+    //NOTE 6 generramos su id importamos su id
     //asignar id
     cita.id = uuid();
     console.log(cita);
@@ -57,13 +57,13 @@ const Formulario = ({crearCita}) => {
 
     //reiniciar el form
 
-actualizarCita({
-  mascota: "",
-  propietario: "",
-  fecha: "",
-  hora: "",
-  sintomas: ""
-})
+    actualizarCita({
+      mascota: "",
+      propietario: "",
+      fecha: "",
+      hora: "",
+      sintomas: ""
+    })
 
 
   }; //ANCHOR  dar click a en la cita
@@ -80,7 +80,7 @@ actualizarCita({
         ) : null
         //mensaje error---------------------------->
       }
-
+     <h2 id="mio">Brayan Enrique Ramirez Partida</h2>
       <form onSubmit={submitCita}>
         <label>Nombre Mascota</label>
         <input
@@ -92,11 +92,11 @@ actualizarCita({
           value={mascota}
         />
 
-        <label>Duenio Mascota</label>
+        <label>Propietario Mascota</label>
         <input
           type="text"
           className="u-full-width"
-          placeholder="Duenio Mascota"
+          placeholder="Propietario Mascota"
           name="propietario"
           onChange={actualizarState}//3.5 generar su cambio y tomar los datos
           value={propietario}

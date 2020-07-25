@@ -8,6 +8,7 @@ function App() {
 
   //funcion citas actuales nueves
 
+//en ejecucion
 
   //Creamos la funcion  Para las citas
   const crearCita = (cita) => {
