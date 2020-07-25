@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/VW-Consultorio-Generico/precache-manifest.0efa0280681919ac36be019929e58d9f.js"
+  "/VW-Consultorio-Generico/precache-manifest.1644ec18756cc1198f61a822c8d03126.js"
 );
 
 self.addEventListener('message', (event) => {
