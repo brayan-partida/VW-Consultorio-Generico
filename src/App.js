@@ -1,25 +1,30 @@
-import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import React, { Fragment, useState } from "react";
+import Formulario from "./components/Formulario.js";
 
 function App() {
+  //areglo de todas las citas
+  //NOTE  6 Generamos el state para citas
+  const [citas, guardarCitas] = useState([]);
+
+  //funcion citas actuales nueves
+
+
+  //Creamos la funcion  Para las citas
+  const crearCita = (cita) => {
+    guardarCitas([...citas, cita]);
+  };
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <Fragment>
+      <h1>administrados de pacientes</h1>
+      <div className="container">
+        <div className="row">
+          <div className="one-half column">
+            <Formulario crearCita={crearCita} />
+          </div>
+          <div className="one-half column">2</div>
+        </div>
+      </div>
+    </Fragment>
   );
 }
 
